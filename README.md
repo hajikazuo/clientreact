@@ -12,6 +12,8 @@ Você pode encontrar o repositório da API em: https://github.com/hajikazuo/Alun
 - MSSQL
 - EntityFramework
 - Identity
+- Axios
+- React
 
 
 

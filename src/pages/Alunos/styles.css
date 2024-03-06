@@ -35,6 +35,14 @@
     background: transparent;
     margin-left: 16px;
     transition: border-color 0.5s;
+    position: relative;
+}
+
+.aluno-container header svg {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
 }
 
 .aluno-container header button:hover {

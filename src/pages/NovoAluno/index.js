@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles.css';
 import { Link, useParams } from 'react-router-dom';
 import { FiArrowLeft } from "react-icons/fi";
@@ -7,6 +7,7 @@ import novoAluno from '../../assets/AddUser.png'
 
 export default function NovoAluno() {
 
+    const [id, setId] = useState(null);
     const {alunoId} = useParams();
     
     return (
